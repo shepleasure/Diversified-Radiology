@@ -1,0 +1,7 @@
+body {
+	background-image: url('../images/background.jpg');
+	background-size: cover;
+}
+.header {
+	background-color: rgba(15,73,107, 0.8);
+}
