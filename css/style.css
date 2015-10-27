@@ -59,6 +59,10 @@ body {
 	font-size: 12px;
 	font-weight: bolder; 
 }
+.footer-nav ul li a:hover {
+	color: #000;
+	text-decoration: none;
+}
 .footer-nav ul {
 	padding: 0px;
 }
