@@ -1,10 +1,15 @@
 body {
-	background-image: url('../images/background.jpg');
-	background-size: cover;
 	padding-bottom: 70px;
+	background: url('../images/background.jpg') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 .header {
 	background-color: rgba(15,73,107, 0.8);
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .login {
 	padding-top: 80px;
