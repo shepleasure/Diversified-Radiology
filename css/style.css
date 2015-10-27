@@ -28,7 +28,7 @@ body {
 	font-size: 13px;
 	border-radius: 0px;
 }
-.fa-user, .fa-lock {
+.login .fa-user, .fa-lock {
 	color: #134c6e;
 }
 .help .btn {
@@ -93,4 +93,46 @@ body {
 }
 .has-error .input-group-addon {
 	background-color: #fcae3a !important;
+}
+.dropdown-toggle  {
+	background-color: transparent;
+	border-color: transparent;
+	color: #fcae3a;
+	font-weight: bolder;
+	padding-top: 15px;
+}
+.dropdown-menu i {
+	padding-right: 5px;
+}
+.dropdown-menu li a {
+	color: #757575 !important;
+	font-size: 12px;
+	font-weight: bold !important;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important; 
+}
+.dropdown-menu li a:hover {
+	background-color: #fcae3a !important;
+	color: #fff !important;
+}
+.about p {
+	color: #cde5f4;
+	font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 60px;
+    text-align: justify;
+}
+.dashboard .btn {
+	background-color: #fcae3a !important;
+	border: 1px solid #b07928 !important;
+	/*border-radius: 0px !important;*/
+	color: #fff !important;
+	margin-left: 60px;
+}
+.dashboard .btn:hover {
+	color: #000 !important;
+}
+.app-image {
+	padding-top: 30px;
+	padding-left: 30px;
 }
