@@ -10,6 +10,7 @@ body {
 	background-color: rgba(15,73,107, 0.8);
 	padding-top: 10px;
 	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(252, 174, 58, 0.5);
 }
 .login {
 	padding-top: 80px;
@@ -133,4 +134,54 @@ body {
 .app-image {
 	padding-top: 30px;
 	padding-left: 30px;
+}
+.navigation ul li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 30px;
+}
+.navigation ul li a {
+	color: #f8f8f8;
+	font-size: 16px;
+	font-weight: bolder; 
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.navigation ul li a:hover {
+	color: #fcae3a;
+	text-decoration: none;
+	border-bottom: 2px solid #fcae3a;
+	padding-bottom: 10px;
+}
+.navigation ul {
+	padding: 0px;
+}
+.navigation {
+	padding-top: 25px;
+}
+.bar {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.bar-image {
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 5px;
+	margin-top: 3px;
+	margin-left: 10px;
+}
+.bar-text {
+	font-weight: 700;
+	vertical-align: -webkit-baseline-middle;
+}
+.add-user .btn {
+	background-color: #fcae3a !important;
+	border: 1px solid #b07928 !important;
+	/*border-radius: 0px !important;*/
+	color: #fff !important;
+	margin-right: 15px;
+	vertical-align: -webkit-baseline-middle;
+}
+.add-user .btn:hover {
+	color: #000 !important;
 }
