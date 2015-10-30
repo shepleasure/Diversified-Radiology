@@ -266,3 +266,6 @@ table#t01 th  {
 .page {
 	padding-left: 15px;
 }
+.transbox .form-group {
+	margin-bottom: 0px !important;
+}
