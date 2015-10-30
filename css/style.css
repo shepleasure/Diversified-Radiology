@@ -180,8 +180,17 @@ body {
 	/*border-radius: 0px !important;*/
 	color: #fff !important;
 	margin-right: 15px;
-	vertical-align: -webkit-baseline-middle;
+	line-height: 2.5;
 }
 .add-user .btn:hover {
+	color: #000 !important;
+}
+.modal-footer .btn {
+	background-color: #fcae3a !important;
+	border: 1px solid #b07928 !important;
+	/*border-radius: 0px !important;*/
+	color: #fff !important;
+}
+.modal-footer .btn:hover {
 	color: #000 !important;
 }
