@@ -269,3 +269,14 @@ table#t01 th  {
 .transbox .form-group {
 	margin-bottom: 0px !important;
 }
+.add-speciality {
+	margin-left: 430px;
+	color: #000;
+}
+.add-speciality .fa {
+	color: #fcae3a;
+}
+.add-speciality:hover {
+	text-decoration: none;
+	color: #fcae3a;
+}
