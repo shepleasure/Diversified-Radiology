@@ -290,3 +290,10 @@ table#t01 th  {
 .panel-footer .btn-submit:hover {
 	color: #000 !important;
   }
+  .hospital-logo {
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+  }
+  .hospital {
+  	padding-top: 15px;
+  }
