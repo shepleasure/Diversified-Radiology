@@ -297,15 +297,18 @@ table#t01 th  {
   .hospital {
   	padding-top: 20px;
   }
+.weekend-div {
+	padding-left: 13px;
+	padding-right: 18px;
+}
 .week-div {
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 15px;
 }
 .well h5 {
 	font-size: 15px !important;
 }
 .scrollable-menu {
     height: auto;
-    max-height: 200px;
+    max-height: 70px;
     overflow-x: hidden;
 }
