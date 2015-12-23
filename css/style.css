@@ -313,9 +313,14 @@ table#t01 th  {
 }
 /*new page*/
 .list-group-item-custom {
-	border: 3px solid #ffffff !important;
+	border-radius: 0px !important;
 	background-color: rgba(0,0,0,0.3) !important;
 	color: #ffffff !important;
+	border: none !important; 
+}
+.list-border {
+	border : 1px solid #ddd !important;
+	height: 42px;
 }
 a.list-group-item-custom {
 	color: #ffffff !important;
@@ -339,4 +344,8 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 }
 .btn-list:hover {
 	color: #000 !important;
+}
+.icon {
+
+	text-align: center;
 }
