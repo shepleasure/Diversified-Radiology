@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diversified Radiology</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/media.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="header">
+        <div class="container">
+          <img src="images/dev-rad-logo-white.png">
+          <div class="dropdown pull-right">
+            <button class="dropdown-toggle" data-toggle="dropdown">Admin
+              <i class="fa fa-caret-down fa-lg"></i></button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">
+                    <i class="fa fa-cogs"></i>
+                    Administrative Tools
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-tachometer"></i>
+                    Dashboard
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-plus"></i>
+                    Manage Hospital
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-folder-open-o"></i>
+                    Manage Specialities
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-user"></i>
+                    Manage User
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-cog"></i>
+                    My Account
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-power-off"></i>
+                    Logout
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="navigation">
+          <div class="container">
+            <ul>
+              <li><a href="">Dashboard</a></li>
+              <li><a href="">Manage Hospital</a></li>
+              <li><a href="">Manage Users</a></li>
+              <li><a href="">My Account</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-heading"><h3><strong>Speciality</strong></h3></div>
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="scrollable-weekend">
+              <div class="well">
+                <h4 class="text-center">Weekend</h4>
+                <br />
+                <div class="row">
+                  <form class="form-horizontal">         
+                    <div class="form-group">
+                      <label class="col-sm-3 text-right" for="ftime">Time</label>
+                      <div class="col-sm-8">
+                        <div class="input-group">
+                          <input type="text" placeholder="00:00 hrs" id="ftime" class="form-control">
+                          <span class="to input-group-addon">
+                            <strong>TO</strong>
+                          </span>
+                          <input type="text" placeholder="00:00 hrs" id="ftime" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-sm-1"></div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-3 text-right" for="day">Weekday</label>
+                      <div class="col-sm-8">
+                        <input type="text" placeholder="Weekday" id="day" class="form-control">
+                      </div>
+                      <div class="col-sm-1"></div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-3 text-right" for="">Phone</label>
+                      <div class="col-sm-8">
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                          <input type="text" placeholder="Phone Number" id="pnumber" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-sm-1"></div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="well">
+                <h4 class="text-center">Weekend</h4>
+                <br />
+                <div class="row">
+                  <form class="form-horizontal">         
+                    <div class="form-group">
+                      <label class="col-sm-3 text-right" for="ftime">Time</label>
+                      <div class="col-sm-8">
+                        <div class="input-group">
+                          <input type="text" placeholder="00:00 hrs" id="ftime" class="form-control">
+                          <span class="to input-group-addon">
+                            <strong>TO</strong>
+                          </span>
+                          <input type="text" placeholder="00:00 hrs" id="ftime" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-sm-1"></div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-3 text-right" for="day">Weekday</label>
+                      <div class="col-sm-8">
+                        <input type="text" placeholder="Weekday" id="day" class="form-control">
+                      </div>
+                      <div class="col-sm-1"></div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-3 text-right" for="">Phone</label>
+                      <div class="col-sm-8">
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                          <input type="text" placeholder="Phone Number" id="pnumber" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-sm-1"></div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="well">
+                <h4 class="text-center">Weekend</h4>
+                <br />
+                <div class="row">
+                  <form class="form-horizontal">         
+                    <div class="form-group">
+                      <label class="col-sm-3 text-right" for="ftime">Time</label>
+                      <div class="col-sm-8">
+                        <div class="input-group">
+                          <input type="text" placeholder="00:00 hrs" id="ftime" class="form-control">
+                          <span class="to input-group-addon">
+                            <strong>TO</strong>
+                          </span>
+                          <input type="text" placeholder="00:00 hrs" id="ftime" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-sm-1"></div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-3 text-right" for="day">Weekday</label>
+                      <div class="col-sm-8">
+                        <input type="text" placeholder="Weekday" id="day" class="form-control">
+                      </div>
+                      <div class="col-sm-1"></div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-3 text-right" for="">Phone</label>
+                      <div class="col-sm-8">
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                          <input type="text" placeholder="Phone Number" id="pnumber" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-sm-1"></div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="well">
+              <h4 class="text-center">Weekday</h4>
+              <br>
+              <div class="row">
+                <form class="form-horizontal">         
+                  <div class="form-group">
+                    <label for="" class="col-sm-3 text-right phone_margin">Phone</label>
+                    <div class="col-sm-8">
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                        <input type="text" class="form-control" id="pnumber" placeholder="Phone Number">
+                      </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-footer text-right">
+        <a href="" class="btn btn-default">
+          <i class="fa fa-times fa-lg"></i>
+          Cancel
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
